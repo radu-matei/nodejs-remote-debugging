@@ -1,0 +1,10 @@
+[environments]
+  [environments.development]
+    name = "node-svc"
+    namespace = "default"
+    wait = false
+    watch = false
+    watch-delay = 2
+    auto-connect = false
+    override-ports = ["8081:8080", "9230:9229"]
+
